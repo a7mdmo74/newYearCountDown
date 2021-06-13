@@ -3,6 +3,13 @@
     box-sizing: border-box;
 }
 
+.rights {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
 body {
     font-family: 'Baloo Tammudu 2', cursive;
     background-image: url('../bg-timer.jpg');
@@ -41,11 +48,4 @@ body {
 
 .hours, .mins, .sec {
     padding-right: 55px;
-}
-
-.rights {
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-size: 30px;
 }
