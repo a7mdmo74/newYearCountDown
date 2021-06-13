@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Tammudu 2', cursive;
+    background-image: url('../bg-timer.jpg');
+    background-size: cover;
+}
+
+.txt {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    color: white;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.count-down {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.count-down p {
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+}
+
+.count-down span {
+    color: white;
+    font-size: 20px;
+}
+
+.days {
+    padding: 0 55px;
+}
+
+.hours, .mins, .sec {
+    padding-right: 55px;
+}
+
+.rights {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
